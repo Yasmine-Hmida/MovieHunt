@@ -5,3 +5,7 @@ It's usually a good practice to create a separate file that contains all of your
 
 the useEffect allows you to add side effects to your functions or to your components and define WHEN
 they should run.
+
+A context will allow state to be globally available to anything that's within the provided context.
+
+"children"
