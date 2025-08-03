@@ -1,4 +1,3 @@
-import React from 'react'
 
 const MovieCard = ({movie}) => {
     function onFavoriteClick(){
@@ -26,5 +25,4 @@ const MovieCard = ({movie}) => {
 }
 
 export default MovieCard
-
 // ❤️
