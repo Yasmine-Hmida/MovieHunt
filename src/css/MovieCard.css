@@ -13,9 +13,9 @@
   transform: translateY(-5px);
 }
 
-.movie-poster {
+.movie-poster { 
   position: relative;
-  aspect-ratio: 2/3;
+  aspect-ratio: 2/3; /* For every 2 units of width, there will be 3 units of height */
   width: 100%;
 }
 

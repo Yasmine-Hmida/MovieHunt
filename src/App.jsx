@@ -1,8 +1,10 @@
 import './css/App.css'
+
 import Favorites from './pages/Favorites'
 import Home from "./pages/Home"
 import NavBar from './components/NavBar'
 import NotFound from './components/NotFound'
+
 import { Route, Routes } from 'react-router-dom'
 import { MovieProvider } from './contexts/MovieContext'
 

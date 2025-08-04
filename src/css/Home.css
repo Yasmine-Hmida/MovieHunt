@@ -2,7 +2,7 @@
   padding: 2rem 0;
   width: 100%;
   box-sizing: border-box;
-}
+} 
 
 .search-form {
   max-width: 600px;
@@ -35,7 +35,7 @@
   border-radius: 4px;
   font-weight: 500;
   transition: background-color 0.2s;
-  white-space: nowrap;
+  white-space: nowrap; /* Do not wrap the text onto the next line even if it overflows */
 }
 
 .search-button:hover {
@@ -50,14 +50,22 @@
 
   .search-form {
     margin-bottom: 1rem;
+    padding:0;
+  }
+}
+
+@media (max-width: 400px) {
+  .search-form {
+    padding:0;
   }
 }
 
 .movies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Each column must be at least 300px, but can grow to 1fr (a share of remaining space) */
   gap: 1.5rem;
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-}
+} 
+
