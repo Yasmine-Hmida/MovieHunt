@@ -17,7 +17,7 @@ const Favorites = () => {
         ) : (
             <div className="favorites">
                 <h2>Your Favorite Movies</h2>
-                <div className="movies-grid">
+                <div className={favorites.length <=3 ? "single-fav-wrapper" : "movies-grid"}>
                     {favorites.map((movie) => {
                         return <MovieCard movie={movie} key={movie.id} />;
                     })}
