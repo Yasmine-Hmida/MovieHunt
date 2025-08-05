@@ -40,6 +40,11 @@
   gap: 1.5rem;
 }
 
+.single-fav-wrapper .movie-card{
+  width:350px;
+}
+
+
 /* Animation for new favorites being added */
 @keyframes fadeIn {
   from {
@@ -59,5 +64,17 @@
 @media screen and (max-width: 600px){
   .favorites {
     padding: 0 ;
+  }
+
+  .single-fav-wrapper{
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+  .single-fav-wrapper {
+    padding: 0;
   }
 }

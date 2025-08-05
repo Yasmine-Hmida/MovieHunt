@@ -2,6 +2,7 @@ import MovieCard from "../components/MovieCard";
 
 import {useState , useEffect} from "react";
 import {getPopularMovies, searchMovies} from "../services/api"
+import errorIcon from "../assets/error.png"
 
 import '../css/Home.css'
  
@@ -63,10 +64,14 @@ const Home = () => {
                 <button type="submit" className="search-button">Search</button>
             </form>
 
-            {error && <div className="error-message">{error}</div>}
+            {error && <div className="error-message">
+                            <img src={errorIcon} alt="Error Icon" />
+                            <h2>{error}</h2>
+                      </div>
+            }
             
             {loading? (
-                <div className="loading">Loading...</div>
+                <div className="loading"></div>
             ) : (
                 <div className="movies-grid">
                 {movies.map((movie) => {

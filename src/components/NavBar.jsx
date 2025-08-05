@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar">
         
         <div className="navbar-brand">
-            <Link to="/">MovieHunt</Link>
+            <Link to="/">MovieHunt</Link> 
         </div>
 
         <div className="navbar-links">
