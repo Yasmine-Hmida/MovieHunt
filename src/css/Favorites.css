@@ -11,7 +11,7 @@
   color: #e50914;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
- 
+
 .favorites-empty {
   text-align: center;
   padding: 4rem 2rem;
@@ -40,10 +40,9 @@
   gap: 1.5rem;
 }
 
-.single-fav-wrapper .movie-card{
-  width:350px;
+.single-fav-wrapper .movie-card {
+  width: 350px;
 }
-
 
 /* Animation for new favorites being added */
 @keyframes fadeIn {
@@ -57,23 +56,24 @@
   }
 }
 
-.movies-grid > * {   /* Every direct child of .movies-grid (i.e., each <MovieCard>) will animate using fadeIn */
-  animation: fadeIn 0.3s ease-out forwards; 
+.movies-grid > * {
+  /* Every direct child of .movies-grid (i.e., each <MovieCard>) will animate using fadeIn */
+  animation: fadeIn 0.3s ease-out forwards;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .favorites {
-    padding: 0 ;
+    padding: 0;
   }
 
-  .single-fav-wrapper{
+  .single-fav-wrapper {
     flex-direction: column;
     align-items: center;
-    padding:0;
+    padding: 0;
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px){
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .single-fav-wrapper {
     padding: 0;
   }
