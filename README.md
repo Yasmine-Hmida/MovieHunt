@@ -65,4 +65,4 @@ To run the project locally:
 git clone https://github.com/Yasmine-Hmida/MovieHunt.git
 cd MovieHunt
 npm install
-npm start
+npm run dev
