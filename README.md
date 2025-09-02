@@ -66,5 +66,3 @@ git clone https://github.com/Yasmine-Hmida/MovieHunt.git
 cd MovieHunt
 npm install
 npm start
-
-
