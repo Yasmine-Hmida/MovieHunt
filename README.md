@@ -21,10 +21,11 @@
 ---
 
 ## 📸 Screenshots
+
 <img width="1920" height="865" alt="Screenshot (427)" src="https://github.com/user-attachments/assets/1f0accfa-fd55-4c09-9802-9da5cfd6630e" />
 <img width="1920" height="858" alt="Screenshot (428)" src="https://github.com/user-attachments/assets/97b0aabf-ff2b-43b7-95c6-2109255f426a" />
 <img width="1920" height="862" alt="Screenshot (429)" src="https://github.com/user-attachments/assets/8867219d-854b-464d-bf5b-8f7f1af0e05f" />
-
+  
 ---
 
 ## 🛠️ Installation
