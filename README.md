@@ -64,9 +64,12 @@ To run the project locally:
 ```bash
 # Clone the repository:
 git clone https://github.com/Yasmine-Hmida/MovieHunt.git
+
 # Navigate into the project folder:
 cd MovieHunt
+
 # Install Dependencies
 npm install
+
 # Run the App
 npm run dev
