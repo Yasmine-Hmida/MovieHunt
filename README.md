@@ -57,7 +57,7 @@ This project requires an API key to access the TMDB service. For security reason
    - The application will automatically load the API key and base URL from your `.env` file.
    - Make sure to keep your `.env` file private and **do not push it** to any public repository.
 
-#### Running the Code
+### Running the Code
 
 To run the project locally:
 
