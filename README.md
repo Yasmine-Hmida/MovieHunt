@@ -1,6 +1,6 @@
 # MovieHunt
 
-**MovieHunt** is a React-based movie app that helps you find movies (like Netflix) and mark them as favorite. Built with React in which I used the API "TMDB" for fetching the movies and their corresponding informations.
+**MovieHunt** is a **React**-based movie app that helps you find movies (like Netflix) and mark them as favorite. Built with React in which I used the API "TMDB" for fetching the movies and their corresponding informations.
 
 ---
 
@@ -68,8 +68,8 @@ git clone https://github.com/Yasmine-Hmida/MovieHunt.git
 # Navigate into the project folder:
 cd MovieHunt
 
-# Install Dependencies
+# Install Dependencies:
 npm install
 
-# Run the App
+# Run the App:
 npm run dev
